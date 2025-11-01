@@ -1,0 +1,84 @@
+// Fallback local para rodar via file:// sem servidor
+window.CARDS = [
+  {
+    id: "catalogo-ideias",
+    title: "Catálogo de Ideias BIZA",
+    description: "Portal Kaizaen com ideias, status e filtros — versão pública hospedada no GitHub Pages.",
+    category: "Programas",
+    area: "Melhoria Contínua",
+    keywords: ["ideias","kaizen","kaizaen","programa"],
+    image: "img/ideias.png",
+    links: [{ label: "Abrir catálogo", href: "https://dodoccb.github.io/Catalogo-BIZA/" }]
+  },
+  {
+    id: "metas-biza",
+    title: "Painel de Metas BIZA",
+    description: "Metas salariais, N3, rotina e PLR com filtros por mês/ano.",
+    category: "Dashboards",
+    area: "SGI/Adm",
+    keywords: ["metas","salariais","painel","PLR"],
+    image: "img/metas.png",
+    links: [{ label: "Abrir painel", href: "https://sgibiza.github.io/Painel-de-Metas-BIZA/index.html" }]
+  },
+  {
+    id: "rastreio-compras",
+    title: "Rastreio de Compras (FLOW)",
+    description: "Tela oficial do SPR para rastreio de solicitações/ordens de compra.",
+    category: "Operações",
+    area: "Compras",
+    keywords: ["SPR","compras","rastreio","ordem"],
+    image: "img/rastreio.png",
+    links: [{ label: "Abrir rastreio", href: "https://spr.hidrautorque.com.br/44357085000569/Biza/RastreioOrdemCompra" }]
+  },
+  {
+    id: "ofs-kanban",
+    title: "OFS Kanban (FLOW)",
+    description: "Quadro Kanban das Ordens de Fabricação.",
+    category: "Produção",
+    area: "PCP",
+    keywords: ["kanban","ofs","pcp"],
+    image: "img/kanban.png",
+    links: [{ label: "Abrir Kanban", href: "https://spr.hidrautorque.com.br/44357085000569/Kanban/IndexKanban" }]
+  },
+  {
+    id: "politica-missao",
+    title: "Política & Missão BIZA",
+    description: "Política do SGI, missão, visão e valores para auditorias.",
+    category: "Institucional",
+    area: "Diretoria",
+    keywords: ["política","missão","visão","valores"],
+    image: "img/politica.png",
+    links: [{ label: "Ver conteúdo", href: "#" }]
+  },
+  {
+    id: "brigada-incendio",
+    title: "Time da Brigada de Incêndio",
+    description: "Brigadistas, setores, turnos, contatos e pontos de encontro.",
+    category: "SST",
+    area: "Segurança",
+    keywords: ["brigada","emergência","contatos"],
+    image: "img/brigada.png",
+    links: [{ label: "Ver lista", href: "https://docs.google.com/viewer?embedded=true&url=biza.sigols.com.br/arquivos_fisicos/20251016111151_f1e47379009942daea27253ea95e95ea.pdf" }]
+  },
+  {
+    id: "cipa",
+    title: "CIPA – Comissão Interna de Prevenção de Acidentes",
+    description: "Composição, atas e calendário de reuniões.",
+    category: "SST",
+    area: "Segurança",
+    keywords: ["CIPA","atas","reuniões","SST"],
+    image: "img/cipa.png",
+    links: [{ label: "Abrir página", href: "#" }]
+  },
+  {
+  id: "solicitacao-epi",
+  title: "Solicitação de EPI",
+  description: "Portal oficial para requisitar EPIs (Equipamentos de Proteção Individual).",
+  category: "SST",
+  area: "Segurança",
+  keywords: ["EPI", "segurança", "SST", "requisitar", "portal"],
+  image: "img/EPI.png",              // opcional; se não existir, aparece o fallback
+  links: [{ label: "Requisitar EPI", href: "https://hidrautorque.duapiepi.com/requisitar_produtos" }]
+}
+  
+];
