@@ -150,7 +150,10 @@ if (!state.allCards.length && Array.isArray(window.CARDS)) {
     if(state.filters.category) p.set('category',state.filters.category);
     if(state.filters.area) p.set('area',state.filters.area);
     if(state.filters.keywords.length) p.set('k',state.filters.keywords.join(','));
-    history.replaceState(null,'',`${location.pathname}?${p.toString()}`);
+    
+    const qs = p.toString();
+    const newUrl = qs ? `${location.pathname}?${qs}` : location.pathname;
+    history.replaceState(null, '', newUrl);
   }
 
   function restoreFromUrl(){

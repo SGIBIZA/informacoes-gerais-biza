@@ -7,7 +7,7 @@ window.CARDS = [
     category: "Programas",
     area: "Melhoria Contínua",
     keywords: ["ideias","kaizen","kaizaen","programa"],
-    image: "img/ideias.png",
+    image: "ideias.png",
     links: [{ label: "Abrir catálogo", href: "https://dodoccb.github.io/Catalogo-BIZA/" }]
   },
   {
@@ -17,7 +17,7 @@ window.CARDS = [
     category: "Dashboards",
     area: "SGI/Adm",
     keywords: ["metas","salariais","painel","PLR"],
-    image: "img/metas.png",
+    image: "metas.png",
     links: [{ label: "Abrir painel", href: "https://sgibiza.github.io/Painel-de-Metas-BIZA/index.html" }]
   },
   {
@@ -27,7 +27,7 @@ window.CARDS = [
     category: "Operações",
     area: "Compras",
     keywords: ["SPR","compras","rastreio","ordem"],
-    image: "img/rastreio.png",
+    image: "rastreio.png",
     links: [{ label: "Abrir rastreio", href: "https://spr.hidrautorque.com.br/44357085000569/Biza/RastreioOrdemCompra" }]
   },
   {
@@ -37,7 +37,7 @@ window.CARDS = [
     category: "Produção",
     area: "PCP",
     keywords: ["kanban","ofs","pcp"],
-    image: "img/kanban.png",
+    image: "kanban.png",
     links: [{ label: "Abrir Kanban", href: "https://spr.hidrautorque.com.br/44357085000569/Kanban/IndexKanban" }]
   },
   {
@@ -47,7 +47,7 @@ window.CARDS = [
     category: "Institucional",
     area: "Diretoria",
     keywords: ["política","missão","visão","valores"],
-    image: "img/politica.png",
+    image: "politica.png",
     links: [{ label: "Ver conteúdo", href: "#" }]
   },
   {
@@ -57,7 +57,7 @@ window.CARDS = [
     category: "SST",
     area: "Segurança",
     keywords: ["brigada","emergência","contatos"],
-    image: "img/brigada.png",
+    image: "brigada.png",
     links: [{ label: "Ver lista", href: "https://docs.google.com/viewer?embedded=true&url=biza.sigols.com.br/arquivos_fisicos/20251016111151_f1e47379009942daea27253ea95e95ea.pdf" }]
   },
   {
@@ -67,7 +67,7 @@ window.CARDS = [
     category: "SST",
     area: "Segurança",
     keywords: ["CIPA","atas","reuniões","SST"],
-    image: "img/cipa.png",
+    image: "cipa.png",
     links: [{ label: "Abrir página", href: "#" }]
   },
   {
@@ -77,7 +77,7 @@ window.CARDS = [
   category: "SST",
   area: "Segurança",
   keywords: ["EPI", "segurança", "SST", "requisitar", "portal"],
-  image: "img/EPI.png",              // opcional; se não existir, aparece o fallback
+  image: "EPI.png",              // opcional; se não existir, aparece o fallback
   links: [{ label: "Requisitar EPI", href: "https://hidrautorque.duapiepi.com/requisitar_produtos" }]
 }
   
