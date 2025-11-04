@@ -78,6 +78,22 @@
   "keywords": ["EPI", "segurança", "SST", "requisitar", "portal"],
   "image": "EPI.png",
   "links": [{ "label": "Requisitar EPI", "href": "https://hidrautorque.duapiepi.com/requisitar_produtos" }]
+},
+{
+  "id": "fispq-biza",
+  "title": "Fichas de Segurança dos Produtos Químicos (FISPQ / FDS)",
+  "description": "Acesso às Fichas de Segurança (FISPQ / FDS) dos produtos químicos utilizados na unidade BIZA, conforme NBR 14725.",
+  "category": "SGI / Meio Ambiente",
+  "area": "Segurança / Meio Ambiente",
+  "keywords": ["FISPQ", "FDS", "produtos químicos", "segurança", "meio ambiente", "NBR 14725", "fichas"],
+  "image": "fds.png",
+  "links": [
+    {
+      "label": "Abrir pasta no Drive",
+      "href": "https://drive.google.com/drive/folders/1Lv_60F7YuPqtc8FGxiI-Z4X4t62qMurU"
+    }
+  ]
 }
-  
+ 
+
 ]
