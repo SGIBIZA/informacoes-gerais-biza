@@ -112,8 +112,8 @@ window.CARDS = [
   id: "quebra-ferramenta",
   title: "Formulário de Quebra de Ferramenta",
   description: "Registro oficial de quebras de inserto e ferramentas utilizadas no CNC.",
-  category: "CQP",
-  area: "Qualidade",
+  category: "Ferramentas",
+  area: "Central de ferramentas",
   keywords: ["inserto", "ferramenta", "quebra", "CNC", "usinagem"],
   image: "ferramenta.png",
   links: [
@@ -122,6 +122,19 @@ window.CARDS = [
       href: "https://forms.office.com/r/GtxJGyjxJr"
     }
   ]
+},
+
+{
+    id: "folhas-processo-cnc",
+    title: "Folhas de Processo – CNC",
+    description: "Acesso às folhas de processo e relatórios do setor CNC via Edgecam.",
+    category: "CNC",
+    area: "Produção",
+    keywords: ["programas", "edgecam", "CNC", "usinagem", "processo"],
+    image: "folha-processo.png",
+    links: [
+        { label: "Abrir sistema", href: "http://10.10.7.158:50162/Reports/Pages/JobReports.aspx" }
+    ]
 }
 
 
