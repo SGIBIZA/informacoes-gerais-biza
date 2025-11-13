@@ -135,7 +135,24 @@ window.CARDS = [
     links: [
         { label: "Abrir sistema", href: "http://10.10.7.158:50162/Reports/Pages/JobReports.aspx" }
     ]
+},
+
+{
+  id: "pdi",
+  title: "PDI – Plano de Desenvolvimento Individual",
+  description: "Acompanhe seu plano de desenvolvimento, treinamentos, carreira e avaliações diretamente pelo Portal Pessoas (LG).",
+  category: "RH / DHO",
+  area: "Recursos Humanos",
+  keywords: ["treinamento", "avaliação", "desempenho", "carreira", "portal pessoas", "PDI", "desenvolvimento"],
+  image: "pdi.png",
+  links: [
+    {
+      label: "Acessar Portal Pessoas",
+      href: "https://login.lg.com.br/autenticacao/Produtos/SAAA/Principal2.aspx?c=ght"
+    }
+  ]
 }
+
 
 
 ]
