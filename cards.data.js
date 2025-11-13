@@ -90,5 +90,23 @@ window.CARDS = [
   image: "fds.png",
   links: [
     {label: "Abrir pasta no Drive", href: "https://drive.google.com/drive/folders/1Lv_60F7YuPqtc8FGxiI-Z4X4t62qMurU"}]
-}
+},
+
+{
+  id: "aspectos-impactos",
+  title: "Levantamento dos Aspectos e Impactos Ambientais - LAIA BIZA",
+  description: "Visualize os aspectos e impactos ambientais por setor, diretamente pelo painel Power BI.",
+  category: "SGA",
+  area: "Meio Ambiente",
+  keywords: ["aspectos", "impactos", "LAIA", "ambiental", "setores", "SGA", "BIZA"],
+  image: "laia.png",
+  links: [
+    {
+      label: "Abrir painel",
+      href: "https://app.powerbi.com/reportEmbed?reportId=4901e128-aa74-44b5-a321-b9f66a0726b2&autoAuth=true&ctid=bad0e1a0-7f47-46da-90b4-33977dc399fa",
+    }
+  ]
+},
+
+
 ]
