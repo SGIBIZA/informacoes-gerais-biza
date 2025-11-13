@@ -106,10 +106,27 @@
   "links": [
     {
       "label": "Abrir painel",
-      "href": "https://app.powerbi.com/reportEmbed?reportId=4901e128-aa74-44b5-a321-b9f66a0726b2&autoAuth=true&ctid=bad0e1a0-7f47-46da-90b4-33977dc399fa"
+      "href": "https://app.powerbi.com/view?r=eyJrIjoiNjBlZmNkNzgtOGNhNy00OTczLWE4ZjMtZTliZDg0NWQ3NzhhIiwidCI6ImJhZDBlMWEwLTdmNDctNDZkYS05MGI0LTMzOTc3ZGMzOTlmYSJ9"
+    }
+  ]
+},
+
+{
+  "id": "quebra-ferramenta",
+  "title": "Formulário de Quebra de Ferramenta",
+  "description": "Registro oficial de quebras de inserto e ferramentas utilizadas no CNC.",
+  "category": "CQP",
+  "area": "Qualidade",
+  "keywords": ["inserto", "ferramenta", "quebra", "CNC", "usinagem"],
+  "image": "ferramenta.png",
+  "links": [
+    {
+      "label": "Abrir formulário",
+      "href": "https://forms.office.com/r/GtxJGyjxJr"
     }
   ]
 }
+
  
 
 ]
