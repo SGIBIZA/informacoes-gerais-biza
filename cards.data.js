@@ -8,7 +8,7 @@ window.CARDS = [
     area: "Melhoria Contínua",
     keywords: ["ideias","kaizen","kaizaen","programa"],
     image: "ideias.png",
-    links: [{ label: "Abrir catálogo", href: "https://dodoccb.github.io/Catalogo-BIZA/" }]
+    links: [{ label: "Abrir catálogo", href: "https://sgibiza.github.io/Catalogo-BIZA/" }]
   },
   {
     id: "metas-biza",
