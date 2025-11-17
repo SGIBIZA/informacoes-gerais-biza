@@ -48,7 +48,7 @@ window.CARDS = [
     area: "Diretoria",
     keywords: ["política","missão","visão","valores"],
     image: "politica.png",
-    links: [{ label: "Ver conteúdo", href: "https://view.officeapps.live.com/op/embed.aspx?src=biza.sigols.com.br/arquivos_fisicos/20251111121001_78170aee2a116b916a5f02e1fe7ddd06.pptx" }]
+    links: [{ label: "Ver conteúdo", href: "https://biza.sigols.com.br/v2/qrcode_arquivo.php?id_registro=1470&documento=42ffcf057e133f94c1b7b5cf543ef3bd" }]
   },
   {
     id: "brigada-incendio",
@@ -58,7 +58,7 @@ window.CARDS = [
     area: "Segurança",
     keywords: ["brigada","emergência","contatos"],
     image: "brigada.png",
-    links: [{ label: "Ver lista", href: "https://docs.google.com/viewer?embedded=true&url=biza.sigols.com.br/arquivos_fisicos/20251111093104_aa795941c3f205c017c0d9b6cd5b0921.pdf" }]
+    links: [{ label: "Ver lista", href: "https://biza.sigols.com.br/v2/qrcode_arquivo.php?id_registro=1467&documento=0245952ecff55018e2a459517fdb40e3" }]
   },
   {
     id: "cipa",
@@ -68,7 +68,7 @@ window.CARDS = [
     area: "Segurança",
     keywords: ["CIPA","atas","reuniões","SST"],
     image: "cipa.png",
-    links: [{ label: "Abrir página", href: "https://docs.google.com/viewer?embedded=true&url=biza.sigols.com.br/arquivos_fisicos/20251111093946_073827bf95b0989ea282ecad663a3aee.pdf" }]
+    links: [{ label: "Abrir página", href: "https://biza.sigols.com.br/v2/qrcode_arquivo.php?id_registro=1468&documento=cec6f62cfb44b1be110b7bf70c8362d8" }]
   },
   {
   id: "solicitacao-epi",
