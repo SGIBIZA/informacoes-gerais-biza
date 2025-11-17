@@ -154,8 +154,23 @@
       "href": "https://login.lg.com.br/autenticacao/Produtos/SAAA/Principal2.aspx?c=ght"
     }
   ]
-}
+},
 
+{
+  "id": "portal-amil",
+  "title": "Portal AMIL – Pesquisa de Atendimento",
+  "description": "Pesquisa oficial da rede credenciada AMIL para consultas, exames e atendimentos.",
+  "category": "RH",
+  "area": "Plano e Convênio",
+  "keywords": ["saúde", "amil", "agendamento", "pesquisa", "rede credenciada", "convênio"],
+  "image": "amil.png",
+  "links": [
+    {
+      "label": "Abrir Portal AMIL",
+      "href": "https://www.amil.com.br/institucional/?gad_source=1&gad_campaignid=9652988586&gbraid=0AAAAAC6hRBr-I2hqFuyzRfedtPmuQWE9d&gclid=Cj0KCQiArOvIBhDLARIsAPwJXOZvt0fVMRdp81wQH8duf8ThxNCdXC4gmtkSWssaTpO288UnHQPyVt4aAnebEALw_wcB#/servicos/saude/rede-credenciada/amil/busca-avancada/?utm_source=google&utm_medium=CPC&utm_campaign=amil-saude_performance&utm_term=sitelink"
+    }
+  ]
+}
  
 
 ]
