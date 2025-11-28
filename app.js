@@ -85,9 +85,26 @@ if (!state.allCards.length && Array.isArray(window.CARDS)) {
       const links=(card.links||[]).slice(0,2);
       const primary=links[0]?`<a class="primary" href="${links[0].href}" target="_blank" rel="noopener">${links[0].label||'Abrir'}</a>`:'';
       const secondary=links[1]?`<a class="secondary" href="${links[1].href}" target="_blank" rel="noopener">${links[1].label||'Alternativo'}</a>`:'';
-      const tags=(card.keywords||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+      // ---------------------------------------------------------------------------
+// TAGS DESATIVADAS NO CARD
+// Esta linha abaixo gera as tags visuais no card usando os keywords.
+// Para manter o visual mais clean, deixamos desativado.
+// Caso queira reativar as tags no CARD, basta descomentar a linha:
+//
+// const tags=(card.keywords||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+// ---------------------------------------------------------------------------
+// CATEGORY DESATIVADO NO CARD
+// A linha abaixo exibia a categoria no card com o formato badge.
+// Para manter o visual mais clean, deixamos desativado.
+// Caso deseje reativar a categoria visual no CARD, basta descomentar:
+//
+// const badgeR = card.category ? `<span class="badge">${card.category}</span>` : '';
+// ---------------------------------------------------------------------------
+
+const badgeR = ""; // Mantém vazio para não quebrar o HTML
+const tags = ""; // Mantém vazio para não quebrar o HTML
+
       const badgeL=card.area?`<span class="badge">${card.area}</span>`:'';
-      const badgeR=card.category?`<span class="badge">${card.category}</span>`:'';
 
       return `<article class="card" data-id="${card.id}">
         <div class="card-media">${img}</div>
@@ -190,3 +207,25 @@ if (!state.allCards.length && Array.isArray(window.CARDS)) {
     navigator.clipboard.writeText(location.href);
   });
 })();
+
+// --- POPUP BIZA: Exibe ao abrir o site ---
+document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("popup-biza");
+    const btnClose = document.getElementById("popup-close");
+
+    // Para aparecer sempre:
+    popup.style.display = "flex";
+
+    // Para aparecer apenas 1 vez, ative isso ↓
+    /*
+    if (localStorage.getItem("popup-biza-seen")) {
+        popup.style.display = "none";
+        return;
+    }
+    */
+
+    btnClose.addEventListener("click", () => {
+        popup.style.display = "none";
+        // localStorage.setItem("popup-biza-seen", "true");
+    });
+});
