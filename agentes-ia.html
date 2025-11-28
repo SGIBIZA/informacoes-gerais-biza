@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agentes IA – Valores que Movem | BIZA</title>
+
+<style>
+    /* ---- ESTILO BASE ---- */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, sans-serif;
+        background: #0b0f19;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        width: 100%;
+        max-width: 1150px;
+        padding: 32px 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        color: #cbd5e1;
+        font-size: 16px;
+        max-width: 800px;
+        line-height: 1.5;
+        margin-bottom: 35px;
+    }
+
+    /* ---- GRID DE CARDS ---- */
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 22px;
+    }
+
+    /* ---- CARD COM IMAGEM DE FUNDO + VÉU ---- */
+.card {
+    position: relative;
+    background: #111827;
+    border-radius: 18px;
+    padding: 18px 20px;
+    border: 1px solid #1f2937;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* Imagem de fundo */
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.55; /* transparência da imagem */
+    z-index: 1;
+}
+
+/* VÉU (escurecimento leve para destacar texto) */
+.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.10);
+    z-index: 2;
+}
+
+/* Conteúdo do card */
+.card-content {
+    position: relative;
+    z-index: 3;
+    background: rgba(0,0,0,0.75);
+    padding: 12px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+/* Número */
+.card-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(248,173,30,0.18);
+    border: 1px solid rgba(248,173,30,0.5);
+    color: #f8ad1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Título */
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Descrição */
+.card-desc {
+    font-size: 14px;
+    color: #f1f5f9;
+    margin-bottom: 16px;
+}
+
+.card::before {
+    background-image: var(--img);
+}
+
+
+/* Botão */
+.btn {
+    position: relative;
+    z-index: 4;
+    background: #f8ad1e;
+    color: #000;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+    /* ---- BOTÃO ---- */
+    .btn {
+        display: inline-block;
+        background: #f8ad1e;
+        color: #000;
+        padding: 10px 16px;
+        border-radius: 10px;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+        transition: 0.2s;
+        margin-top: auto;
+    }
+
+    .btn:hover {
+        background: #d99816;
+    }
+
+    /* ---- DICAS & RODAPÉ ---- */
+    .tips {
+        margin-top: 45px;
+        background: #1e293b;
+        border-radius: 14px;
+        padding: 20px 22px;
+        border: 1px dashed #475569;
+        color: #cbd5e1;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .tips ul {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    .warning {
+        margin-top: 20px;
+        background: #3b0764;
+        border-radius: 10px;
+        padding: 14px;
+        border: 1px solid #a855f7;
+        color: #e9d5ff;
+        font-size: 14px;
+    }
+
+    .footer-text {
+        margin-top: 20px;
+        color: #f8ad1e;
+        font-size: 15px;
+        font-weight: 600;
+    }
+</style>
+</head>
+
+<body>
+<main>
+
+    <h1>🤖 Bem-vindo(a) ao Valores que Movem – Projeto IA da BIZA! 📊</h1>
+    <p class="subtitle">
+        Conheça nossos agentes inteligentes, já prontos para acelerar atividades e processos do dia a dia.
+        Clique nos cards para interagir e explorar todo o potencial de cada agente.
+    </p>
+
+    <!-- GRID DE CARDS -->
+    <div class="cards-grid">
+
+        <!-- CARD 1 -->
+       <div class="card" style="--img: url('agente.SGI.jpeg');">
+        <div class="card-content">
+        <div class="card-number">1</div>
+        <div class="card-title">Agente Especialista SGI</div>
+        <div class="card-desc">Pesquisa de documentos, procedimentos e instruções de trabalho BIZA.</div>
+    </div>
+        <a class="btn" href="https://embed.tess.im/pt-BR/agents/especialista-sgi-aCmUYE/public" target="_blank">Abrir Agente SGI</a>
+</div>
+
+        <!-- CARD 2 -->
+        <div class="card" style="--img: url('agente.CFER.jpeg');">
+            <div class="card-content">
+            <div class="card-number">2</div>
+            <div class="card-title">Agente da Central de Ferramentas</div>
+            <div class="card-desc">Localiza ferramentas e materiais de forma rápida.</div>
+        </div>
+            <a class="btn" href="https://embed.tess.im/pt-BR/agents/agente-especialista-em-ferramentas-v3-4RwuFE/public" target="_blank">Abrir Agente Ferramentas</a>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card" style="--img: url('agente.PREV.jpeg');">
+            <div class="card-content">
+            <div class="card-number">3</div>
+            <div class="card-title">Agente Especialista em Preventivas</div>
+            <div class="card-desc">Manutenções preventivas e análise de históricos.</div>
+        </div>
+            <a class="btn" href="https://embed.tess.im/pt-BR/agents/biza-especialista-em-manutencao-preventiva-EedYBf/public" target="_blank">Abrir Agente Preventiva</a>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card" style="--img: url('agente.MCT019.jpeg');">
+            <div class="card-content">
+            <div class="card-number">4</div>
+            <div class="card-title">Agente T019 – Manutenção Corretiva</div>
+            <div class="card-desc">Ajuda a reduzir o tempo de inatividade da máquina.</div>
+        </div>
+            <a class="btn" href="https://embed.tess.im/pt-BR/agents/biza-t019-agente-especialista-em-manutencao-corretira-fQfmbh/public" target="_blank">Abrir Agente T019</a>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card" style="--img: url('agente.EOP.jpeg');">
+            <div class="card-content">
+            <div class="card-number">5</div>
+            <div class="card-title">Agente Eficiência Operacional</div>
+            <div class="card-desc">Análises dos dados de produção.</div>
+        </div>
+            <a class="btn" href="https://embed.tess.im/pt-BR/agents/analista-de-eficiencia-operacional-klTrAZ/public" target="_blank">Abrir Agente Eficiência</a>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card" style="--img: url('agente.PCP.jpeg');">
+            <div class="card-content">
+            <div class="card-number">6</div>
+            <div class="card-title">Agente Especialista PCP</div>
+            <div class="card-desc">Programação mensal, apontamentos e status das OFs.</div>
+        </div>
+            <a class="btn" href="https://embed.tess.im/pt-BR/agents/especialista-pcp-qGNkJn/public" target="_blank">Abrir Agente PCP</a>
+        </div>
+
+    </div>
+
+    <!-- DICAS -->
+    <div class="tips">
+        <strong>💡 Dicas rápidas</strong>
+        <ul>
+            <li>Seja específico — quanto mais detalhes, melhores as respostas.</li>
+            <li>Anexe fotos, relatórios ou prints quando necessário.</li>
+            <li>Use comandos como: “Explique passo a passo”, “Resuma”, “Refaça em formato de checklist”.</li>
+            <li>Combine agentes para análises completas.</li>
+        </ul>
+    </div>
+
+    <!-- AVISO -->
+    <div class="warning">
+        🚨 Esses agentes estão em fase de testes. Sempre valide a veracidade das respostas antes de aplicar no dia a dia.
+    </div>
+
+    <div class="footer-text">
+        🚀 Boa jornada! Que a inteligência dos nossos agentes impulsione seus resultados.
+    </div>
+
+</main>
+</body>
+</html>
