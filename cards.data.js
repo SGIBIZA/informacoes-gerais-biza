@@ -89,7 +89,7 @@ window.CARDS = [
   keywords: ["FISPQ", "FDS", "produtos químicos", "segurança", "meio ambiente", "NBR 14725", "fichas"],
   image: "fds.png",
   links: [
-    {label: "Abrir pasta no Drive", href: "https://drive.google.com/drive/folders/1Lv_60F7YuPqtc8FGxiI-Z4X4t62qMurU"}]
+    {label: "Abrir pasta no Drive", href: "https://sgibiza.github.io/Fichas-de-seguranca-Biza/"}]
 },
 
 {
