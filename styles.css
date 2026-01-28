@@ -192,24 +192,38 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica
 /* ---------------------------- */
 @media (max-width: 600px) {
 
+  .popup-biza{
+    padding: 10px;             /* era 20px */
+  }
+
   .popup-content {
-    flex-direction: column;     /* FICA EM COLUNA */
-    text-align: center;         /* Centraliza tudo */
-    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;             /* era 20px */
+    gap: 12px;                 /* era 25px */
+    max-width: 520px;          /* evita ficar gigante */
+    max-height: 82vh;          /* limita altura */
+    overflow: auto;            /* se passar, rola dentro do popup */
   }
 
   .popup-mascote {
-    width: 120px;               /* Mascote menor */
-    height: auto;
-    animation: bounce 1.6s infinite ease-in-out;
+    width: 95px;               /* era 120px */
   }
 
   .popup-balloon {
-    padding: 18px;
+    padding: 12px 14px;        /* era 18px */
     border-left: none;
-    border-top: 6px solid #F8AD1E;  /* Fica estiloso no mobile */
+    border-top: 6px solid #F8AD1E;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 14px;           /* era 16px */
+    line-height: 1.35;
+  }
+
+  .popup-close{
+    margin-top: 10px;          /* era 15px */
+    padding: 9px 16px;         /* era 10px 22px */
+    border-radius: 10px;
+    font-size: 14px;
   }
 }
 
