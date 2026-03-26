@@ -133,7 +133,7 @@ window.CARDS = [
     keywords: ["programas", "edgecam", "CNC", "usinagem", "processo"],
     image: "folha-processo.png",
     links: [
-        { label: "Abrir sistema", href: "http://10.10.7.158:50162/Reports/Pages/JobReports.aspx" }
+        { label: "Abrir sistema", href: "http://10.10.7.182:51946/Reports/Pages/JobReports.aspx" }
     ]
 },
 
@@ -181,22 +181,6 @@ window.CARDS = [
     {
       "label": "Abrir Agentes IA",
       "href": "agentes-ia.html"
-    }
-  ]
-},
-
-{
-  id: "catalogo-docs",
-  title: "Catálogo de Documentos - SIGO",
-  description: "Acesse a página com todos os documentos, procedimentos e ITs da BIZA de forma prática e agil no dia a dia.",
-  category: "SGI",
-  area: "Documentação",
-  keywords: ["Procedimentos", "IT", "Instrução de Trabalho", "Manual", "processos", "eficiência", "sgi"],
-  image: "documentos-sigo.jpeg",
-  links: [
-    {
-      "label": "Buscar documentos",
-      "href": "https://biza.sigols.com.br/index.php?u=90TQj9mQuxkdkJjYzZ0RkhmTXBla1cVYt10MiBnSzIGMGdkYspEWQZnUXlVd5cVYqZ1RixmTWRWdWdlY"
     }
   ]
 }
