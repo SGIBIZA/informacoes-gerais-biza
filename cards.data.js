@@ -139,8 +139,9 @@ window.CARDS = [
 
 {
   id: "pdi",
-  title: "PDI – Plano de Desenvolvimento Individual",
-  description: "Acompanhe seu plano de desenvolvimento, treinamentos, carreira e avaliações diretamente pelo Portal Pessoas (LG).",
+  title: "Ciclo de performance + PDI",
+  description: "Acompanhe o Ciclo de Performance GHT: Avaliação de desempenho, Feedback e PDI (Plano de Desenvolvimento Individual) na plataforma Gupy.
+Obs.: use seu CPF e o domínio: grupohidrautorque.",
   category: "RH / DHO",
   area: "Recursos Humanos",
   keywords: ["treinamento", "avaliação", "desempenho", "carreira", "portal pessoas", "PDI", "desenvolvimento"],
@@ -148,7 +149,7 @@ window.CARDS = [
   links: [
     {
       label: "Acessar Portal Pessoas",
-      href: "https://login.lg.com.br/autenticacao/Produtos/SAAA/Principal2.aspx?c=ght"
+      href: "https://www.pulses.com.br/app/aplicativo"
     }
   ]
 },
