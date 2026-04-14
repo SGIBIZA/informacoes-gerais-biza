@@ -136,7 +136,7 @@
     "keywords": ["programas", "edgecam", "CNC", "usinagem", "processo"],
     "image": "folha-processo.png",
     "links": [
-        { "label": "Abrir sistema", "href": "http://10.10.7.182:51946/Reports/Pages/JobReports.aspx" }
+        { "label": "Abrir sistema", "href": "http://pcbiza009:57495/Reports/Pages/JobReports.aspx" }
     ]
 },
 
