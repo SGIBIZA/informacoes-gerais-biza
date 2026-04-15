@@ -196,7 +196,7 @@ window.CARDS = [
   links: [
     {
       "label": "Buscar documentos",
-      "href": "https://biza.sigols.com.br/index.php?u=90TQj9mQuxkdkJjYzZ0RkhmTXBla1cVYt10MiBnSzIGMGdkYspEWQZnUXlVd5cVYqZ1RixmTWRWdWdlY"
+      "href": "https://biza.sigols.com.br/index.php?u=6BjeilnUzMGckdlW5ljRaBnWDN2bC5GTzY1VhJTOGpVeGJjYphmMjhmUXBla1cVYt1ESalnRyIWaoJzYoJ1VQZnUXlVd5cVYqZ1RixmTWRWdWdlY"
     }
   ]
 }
