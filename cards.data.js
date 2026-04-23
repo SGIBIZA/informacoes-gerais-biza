@@ -148,7 +148,7 @@ window.CARDS = [
   links: [
     {
       label: "Acessar Portal Pessoas",
-      href: "https://login.lg.com.br/autenticacao/Produtos/SAAA/Principal2.aspx?c=ght"
+      href: "https://www.pulses.com.br/app/aplicativo/#/performance-beta/my-results/cycles"
     }
   ]
 },
