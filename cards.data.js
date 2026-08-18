@@ -28,7 +28,7 @@ window.CARDS = [
     area: "Compras",
     keywords: ["SPR","compras","rastreio","ordem"],
     image: "rastreio.png",
-    links: [{ label: "Abrir rastreio", href: "https://spr.hidrautorque.com.br/44357085000569/Biza/RastreioOrdemCompra" }]
+    links: [{ label: "Abrir rastreio", href: "https://spr.grupoht.com.br/44357085000569/Biza/RastreioOrdemCompra" }]
   },
   {
     id: "ofs-kanban",
@@ -38,7 +38,7 @@ window.CARDS = [
     area: "PCP",
     keywords: ["kanban","ofs","pcp"],
     image: "kanban.png",
-    links: [{ label: "Abrir Kanban", href: "https://spr.hidrautorque.com.br/44357085000569/Kanban/IndexKanban" }]
+    links: [{ label: "Abrir Kanban", href: "https://spr.grupoht.com.br/44357085000569/Kanban/IndexKanban" }]
   },
   {
     id: "politica-missao",
