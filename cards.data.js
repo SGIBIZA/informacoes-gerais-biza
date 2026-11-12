@@ -103,7 +103,7 @@ window.CARDS = [
   links: [
     {
       label: "Abrir painel",
-      href: "https://app.powerbi.com/view?r=eyJrIjoiNjBlZmNkNzgtOGNhNy00OTczLWE4ZjMtZTliZDg0NWQ3NzhhIiwidCI6ImJhZDBlMWEwLTdmNDctNDZkYS05MGI0LTMzOTc3ZGMzOTlmYSJ9",
+      href: "https://laia-f-cil-631886432415.us-west1.run.app/",
     }
   ]
 },
